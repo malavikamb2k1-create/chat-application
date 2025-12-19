@@ -17,4 +17,5 @@ def send():
     return jsonify(messages=messages)
 
 if __name__ == "__main__":
-    app.run(debug=True)
+    app.run()
+
